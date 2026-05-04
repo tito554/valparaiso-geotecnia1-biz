@@ -1,0 +1,54 @@
+# Valparaiso
+
+> Geotechnical engineering company in Chile, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Amplificacion Sismica](https://valparaiso.geotecnia1.biz/amplificacion-sismica/)
+- [Asentamiento Diferencial](https://valparaiso.geotecnia1.biz/asentamiento-diferencial/)
+- [Cimentaciones](https://valparaiso.geotecnia1.biz/cimentaciones/)
+- [Columnas Grava](https://valparaiso.geotecnia1.biz/columnas-grava/)
+- [Compresion Simple](https://valparaiso.geotecnia1.biz/compresion-simple/)
+- [Consolidacion](https://valparaiso.geotecnia1.biz/consolidacion/)
+- [Drenes Verticales](https://valparaiso.geotecnia1.biz/drenes-verticales/)
+- [Ensayo Cpt](https://valparaiso.geotecnia1.biz/ensayo-cpt/)
+- [Ensayo Proctor](https://valparaiso.geotecnia1.biz/ensayo-proctor/)
+- [Ensayo Spt](https://valparaiso.geotecnia1.biz/ensayo-spt/)
+- [Ensayos In Situ](https://valparaiso.geotecnia1.biz/ensayos-in-situ/)
+- [Estabilidad Taludes](https://valparaiso.geotecnia1.biz/estabilidad-taludes/)
+- [Estabilizacion Cal Cemento](https://valparaiso.geotecnia1.biz/estabilizacion-cal-cemento/)
+- [Estabilizacion Taludes](https://valparaiso.geotecnia1.biz/estabilizacion-taludes/)
+- [Estudio Mecanica Suelos](https://valparaiso.geotecnia1.biz/estudio-mecanica-suelos/)
+- [Evaluacion Pavimentos](https://valparaiso.geotecnia1.biz/evaluacion-pavimentos/)
+- [Excavaciones Subterraneas](https://valparaiso.geotecnia1.biz/excavaciones-subterraneas/)
+- [Exploracion](https://valparaiso.geotecnia1.biz/exploracion/)
+- [Factor Seguridad](https://valparaiso.geotecnia1.biz/factor-seguridad/)
+- [Falla Taludes](https://valparaiso.geotecnia1.biz/falla-taludes/)
+- [Flujos Detritos](https://valparaiso.geotecnia1.biz/flujos-detritos/)
+- [Geofisica](https://valparaiso.geotecnia1.biz/geofisica/)
+- [Geotecnia Vial](https://valparaiso.geotecnia1.biz/geotecnia-vial/)
+- [Granulometria](https://valparaiso.geotecnia1.biz/granulometria/)
+- [Infiltracion](https://valparaiso.geotecnia1.biz/infiltracion/)
+- [Jet Grouting](https://valparaiso.geotecnia1.biz/jet-grouting/)
+- [Laboratorio](https://valparaiso.geotecnia1.biz/laboratorio/)
+- [Limites Atterberg](https://valparaiso.geotecnia1.biz/limites-atterberg/)
+- [Mejoramiento](https://valparaiso.geotecnia1.biz/mejoramiento/)
+- [Microtremores Hvsr](https://valparaiso.geotecnia1.biz/microtremores-hvsr/)
+- [Monitoreo Excavaciones](https://valparaiso.geotecnia1.biz/monitoreo-excavaciones/)
+- [Muros Contencion](https://valparaiso.geotecnia1.biz/muros-contencion/)
+- [Pavimento Flexible](https://valparaiso.geotecnia1.biz/pavimento-flexible/)
+- [Resistividad Electrica Sev](https://valparaiso.geotecnia1.biz/resistividad-electrica-sev/)
+- [Sismica](https://valparaiso.geotecnia1.biz/sismica/)
+- [Subrasante Vial](https://valparaiso.geotecnia1.biz/subrasante-vial/)
+- [Suelos Colapsibles](https://valparaiso.geotecnia1.biz/suelos-colapsibles/)
+- [Suelos No Saturados](https://valparaiso.geotecnia1.biz/suelos-no-saturados/)
+- [Tablestacas](https://valparaiso.geotecnia1.biz/tablestacas/)
+- [Taludes Y Muros](https://valparaiso.geotecnia1.biz/taludes-y-muros/)
+- [Terraplenes Viales](https://valparaiso.geotecnia1.biz/terraplenes-viales/)
+- [Vibrocompactacion](https://valparaiso.geotecnia1.biz/vibrocompactacion/)
+
+## Contact
+- Website: https://valparaiso.geotecnia1.biz/
+
+## About
+This page provides information about geotechnical engineering services available in Chile.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
