@@ -11,5 +11,10 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "lang": "es",
+  "orientation": "portrait-secondary",
+  "scope": "/",
+  "description": "Servicios geotécnicos profesionales en Valparaíso, Chile. Estudios de suelo, ensayos y consultoría técnica.",
+  "id": "/valparaiso-5174"
 }
