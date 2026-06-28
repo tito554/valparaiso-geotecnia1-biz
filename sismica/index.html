@@ -1,228 +1,277 @@
-<!DOCTYPE html>
-<html lang="es">
-<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
-<meta charset="UTF-8"><meta name="theme-color" content="#3B3024">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sísmica en Valparaíso – Chile</title>
-<meta name="description" content="En Valparaíso, la evaluación sísmica aborda la interacción entre las condiciones geotécnicas locales —suelos de relleno, quebradas y formaciones rocosas co">
-<link rel="canonical" href="https://valparaiso.geotecnia1.biz/sismica/">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Sísmica en Valparaíso – Chile">
-<meta property="og:description" content="En Valparaíso, la evaluación sísmica aborda la interacción entre las condiciones geotécnicas locales —suelos de relleno, quebradas y formaciones rocosas co">
-<meta property="og:url" content="https://valparaiso.geotecnia1.biz/sismica/">
-<meta property="og:site_name" content="Valparaiso Cl">
-<meta property="og:image" content="https://valparaiso.geotecnia1.biz/img/amplificacion-sismica-1.webp">
-<meta property="og:locale" content="es_CL">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Sísmica en Valparaíso – Chile">
-<meta name="twitter:description" content="En Valparaíso, la evaluación sísmica aborda la interacción entre las condiciones geotécnicas locales —suelos de relleno, quebradas y formaciones rocosas co">
-
-<style>
-
-@media (max-width: 900px) {
-    .sidebar { display: none; }
-.sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-.servicio:hover { border-color: var(--primary); }
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-
-.cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
-.cta .whatsapp-btn:hover { background: #1eb853; }
-.cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-tr:nth-child(even) { background: #f8fafc; }
-summary::-webkit-details-marker { display: none; }
-.cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
-    .container { padding: 1rem; }
-.header-contact a:hover { color: white; }
-
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-.cat-name:hover{text-decoration:underline;text-underline-offset:3px}
-.sidebar .cat {
-    cursor: pointer; display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
-    border-top: 1px solid rgba(255,255,255,0.04);
-}
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-
-.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+<!DOCTYPE html><html lang="es"><head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sísmica en Valparaíso – Chile</title><meta name="description" content="La sísmica aplicada a la ingeniería civil en Valparaíso abarca el conjunto de estudios, análisis y diseños orientados a"><link rel="canonical" href="https://valparaiso.geotecnia1.biz/sismica/"><meta property="og:type" content="website"><meta property="og:title" content="Sísmica en Valparaíso – Chile"><meta property="og:description" content="La sísmica aplicada a la ingeniería civil en Valparaíso abarca el conjunto de estudios, análisis y diseños orientados a"><meta property="og:url" content="https://valparaiso.geotecnia1.biz/sismica/"><meta property="og:site_name" content="Geotecnia1"><meta property="og:locale" content="es_ES"><meta property="og:image" content="https://valparaiso.geotecnia1.biz/img/tomografia-sismica-3.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sísmica en Valparaíso – Chile"><meta name="twitter:description" content="La sísmica aplicada a la ingeniería civil en Valparaíso abarca el conjunto de estudios, análisis y diseños orientados a comprender la respuesta del terreno"><meta name="twitter:image" content="https://valparaiso.geotecnia1.biz/img/tomografia-sismica-3.webp"><style>/*afx*/@media(max-width:900px){.layout{grid-template-columns:1fr}aside{position:static}}
+a:hover{color:#CA8A04}
+*{margin:0;padding:0;box-sizing:border-box}
+.brand{display:flex;align-items:flex-start;gap:1rem}
+.brand-name{font-family:'Space Grotesk',serif;font-weight:700;letter-spacing:.15em;font-size:1rem;color:#FFF}
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
-    .content-area { flex-direction: column; }
-    main { padding: 1.5rem; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-.sidebar .cat.open + .sub { display: flex; }
-.cat-name{flex:1;padding:.85rem 1.1rem;color:inherit;text-decoration:none;font-weight:600;line-height:1.3;display:block}
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
-    .header-top { flex-direction: column; text-align: center; }
-.sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
-.sidebar .sub { display: none; background: rgba(0,0,0,0.15); flex-direction: column; }
-a { color: var(--primary); text-decoration: none; }
-summary:hover { background: rgba(0,0,0,0.02); }
-
-.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
-.sidebar .cat.open .arrow { transform: rotate(90deg); }
-.sidebar .sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
+main h2{font-family:'Space Grotesk',serif;font-weight:700;font-size:1.6rem;color:#14532D;margin:2rem 0 1rem;letter-spacing:.01em}
+.brand-logo{width:50px;height:50px;border:2px solid #FFF;border-radius:50%;background:#A16207;position:relative;display:flex;align-items:center;justify-content:center;color:#FFF;font-size:1.4rem;font-weight:700;font-family:'Space Grotesk',sans-serif}
+/* MAIN */
+main{background:#FFF;padding:3rem 3rem;min-height:60vh}
+details.faq[open] summary{margin-bottom:.7rem;color:#CA8A04}
+.cat-sub{background:#F9FAFB;padding:.25rem 0 .5rem;border-top:1px solid #F3F4F6}
+.cta a{color:#A16207;font-weight:600}
+.cat-toggle:hover{color:#A16207;background:#F9FAFB}
+.header h1{font-family:'Space Grotesk',serif;font-weight:700;font-size:clamp(2rem,4vw,2.8rem);color:#FFF;letter-spacing:-.01em;line-height:1.15}
+.crumb-5602{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:.8rem}
+.brand-text{margin-top:.3rem}
+.cat-sub a:hover{color:#A16207;border-left-color:#A16207;background:#F3F4F6}
+.header-email{color:#FFF;font-size:.88rem}
+.cat-sub a{display:block;padding:.5rem 1.25rem .5rem 2rem;color:#4B5563;font-size:.85rem;text-decoration:none;border-left:2px solid transparent;line-height:1.4}
+/* SIDEBAR — modern clean */
+aside{background:#FFFFFF;color:#1F2937;padding:0;align-self:start;position:sticky;top:1rem;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.cat-item:last-child{border-bottom:none}
+.cat-name:hover{color:#A16207;background:#F9FAFB}
+a{color:#A16207;text-decoration:none}
+.cat-arrow svg{width:10px;height:10px;display:block}
+main p{margin-bottom:1.1rem;color:#333;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+footer a{color:#A16207}
+details.faq p{color:#444;margin:0}
+details.faq{background:#FAFAFA;border:1px solid #E5E5E5;padding:1rem 1.3rem;margin-bottom:.7rem;cursor:pointer}
+body{font-family:'IBM Plex Sans',Georgia,serif;background:#FEFCE8;color:#14532D;line-height:1.7;font-size:16px}
+.cta p{color:#FFF !important;text-align:center !important}
+table th{background:#14532D;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.85rem;letter-spacing:.05em;font-weight:700}
+main p:first-child{font-size:1.05rem;color:#333}
+.brand-city{font-size:.82rem;color:#888;margin-top:.2rem}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:2.5rem}
+footer{background:#14532D;color:#AAA;padding:2rem 3rem;font-size:.82rem;text-align:center;margin-top:3rem}
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;gap:0;max-width:1200px;margin:0 auto;padding:2rem}
+.cat-toggle{background:transparent;border:none;border-left:1px solid #F3F4F6;padding:0 .9rem;cursor:pointer;color:#9CA3AF;display:flex;align-items:center;justify-content:center;transition:color .15s}
+.sb-home{display:block;padding:1rem 1.25rem;font-family:'Space Grotesk',serif;font-weight:700;color:#FFF;background:#14532D;letter-spacing:.02em;text-decoration:none;font-size:1rem}
+details.faq summary{font-weight:700;color:#14532D;list-style:none;font-family:'Space Grotesk',serif}
+.crumb-5602 a{color:#FFF;text-decoration:underline;font-weight:600}
+.cat-name{flex:1;padding:.7rem 1.25rem;color:#1F2937;font-size:.92rem;font-weight:600;text-decoration:none;line-height:1.3;display:flex;align-items:center}
+.cat-row{display:flex;align-items:stretch;justify-content:space-between;min-height:42px}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-family:'IBM Plex Sans',serif}
+/* HEADER DARK */
+.header{background:#14532D;color:#FFF;padding:3rem 3rem 4rem}
+.cta h3{font-family:'Space Grotesk',serif;font-size:1.4rem;margin-bottom:.7rem;color:#FFF !important}
+.cat-arrow{display:inline-flex;align-items:center;transition:transform .2s}
+.crumb-5602 a:hover{color:#A16207}
+.cta{background:#14532D;color:#FFF;padding:2rem;text-align:center;margin:2rem 0;border-radius:0}
+.sb-home:hover{color:#A16207}
+table td{padding:.7rem 1rem;border-bottom:1px solid #E5E5E5;color:#14532D}
+.cat-item{border-bottom:1px solid #F3F4F6}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1E3A8A"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>/*afx*/.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+body>*{max-width:100vw}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}</style><style>/*afx*/nav.navbar a, header nav a, .nav-bar a, .top-nav a, .nav-cat-link, .nav-item a {
+font-size: 1rem !important;
+color: #FFFFFF !important;
+font-weight: 500 !important;
 }
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
-.sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
+nav[aria-label="breadcrumb"] a:hover, .crumb-5602 a:hover {
+color: #FCD34D !important;
 }
-main p { margin-bottom: 1rem; color: #334155; }
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
-.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-
-details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-details[open] summary::before { content: '− '; }
-.sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
+/* Breadcrumb sobre dark */
+nav[aria-label="breadcrumb"], .crumb-5602, .breadcrumb {
+color: rgba(255,255,255,.85) !important;
+font-size: .82rem !important;
 }
-summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-.cta .contacto-line a { color: white; text-decoration: underline; }
-footer a { color: rgba(255,255,255,0.85); }
-.servicio p { margin: 0; font-size: .9rem; color: #475569; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
-.sidebar { padding: .5rem 0; }
-:root {
-    --primary: #D97706;
-    --accent: #EA580C;
-    --dark: #171717;
-    --bg: #FAFAF9;
-    --text: #1C1917;
-    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
-    --font-b: 'Lora', 'Segoe UI', sans-serif;
+/* Navbar font + contraste */
+nav.navbar, header nav, .nav-bar, .top-nav {
+font-size: 1rem !important;
 }
-th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-.cat-sub-wrap{padding:.4rem 0 .8rem;background:rgba(0,0,0,.15)}
-.cat-toggle:hover{background:rgba(255,255,255,.1)}
-main section { margin-bottom: 1.5rem; }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-h1, h2, h3, h4 { font-family: var(--font-h); }
-.cat-row:hover{background:rgba(255,255,255,.05)}
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
+nav[aria-label="breadcrumb"] a, .crumb-5602 a, .breadcrumb a {
+color: #FFFFFF !important;
+text-decoration: underline;
+font-weight: 600;
 }
-.cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
+/* Brand-name siempre legible */
+.brand-name, .logo-text, .main, .brand {
+color: #FFFFFF !important;
+}
+/* Home link explicito (caso del screenshot) */
+.crumb-5602 a[href="/"], .breadcrumb a[href="/"], a.home-link {
+color: #FFFFFF !important;
+}
+nav.navbar a:hover, header nav a:hover, .nav-cat-link:hover {
+color: #FCD34D !important;
+text-decoration: underline;
+}</style><style>/*afx*/@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+.map-block { padding: 2rem 0; background: #F1F5F9; }
+footer a, .footer a { color: #FCD34D; }
+.cat-sub { padding-left: 1rem; }
+/* H1/H2 */
+h1 { color: #0F172A; font-size: 1.85rem; margin: 1rem 0 1.5rem; line-height: 1.2; }
+.crumb-5602 a:hover, .breadcrumb a:hover { color: #FCD34D; }
+.updated-info { color: #94A3B8; font-size: .8rem; font-style: italic; }
+/* Body wrapper - layout flex */
+.layout { display: grid; grid-template-columns: 240px 1fr; gap: 1.5rem; margin: 1.5rem auto; padding: 0 1.5rem; max-width: 1280px; }
+.brand-logo { display: inline-block; vertical-align: middle; }
+/* Header */
+.header, .main-header, header.main-header { background: #0F172A; color: #FFF; padding: 1rem 1.5rem; margin-bottom: 1.5rem; }
+.card { background: #FFF; border: 1px solid #E5E7EB; border-radius: 10px; padding: 1.2rem; text-decoration: none; color: inherit; box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: all .2s; }
+.map-wrap { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+.mid-cta-5602 > div { max-width: 720px; margin: 0 auto; background: linear-gradient(135deg, #1D4ED815, #1D4ED808); border-left: 4px solid #1D4ED8; padding: 1.6rem 1.8rem; border-radius: 8px; text-align: center; }
+.cat-sub a { font-size: .85rem; color: rgba(255,255,255,.85); padding: .3rem .75rem; }
+.cat-row, .cat-item { display: flex; align-items: center; justify-content: space-between; padding: .4rem .75rem; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(0,0,0,.08); border-color: #1D4ED8; }
+/* Cards / grid */
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+/* Layout wrapper */
+.layout, .main-wrapper, .content-area { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+/* Reset basico */
+* { box-sizing: border-box; }
+.sb-home a:hover, .sidebar a:hover { background: rgba(255,255,255,.08); }
+/* Block / section base */
+.block { padding: 2rem 1.5rem; }
+/* Sidebar */
+.sb-home, .sidebar, aside { background: #1E293B; color: #FFFFFF; border-radius: 10px; padding: 1rem; }
+/* Authority refs */
+.authority-refs { color: #94A3B8; font-size: .8rem; }
+.crumb-5602 a, .breadcrumb a { color: #FFFFFF; text-decoration: underline; }
+.cat-name { color: #FFFFFF; font-weight: 500; flex: 1; }
+h3 { color: #1E293B; font-size: 1.1rem; margin: 1rem 0 .5rem; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; margin: 0; line-height: 1.6; color: #1E293B; background: #F8FAFC; }
+.block > div { max-width: 1200px; margin: 0 auto; }
+.cat-toggle, .cat-arrow { background: transparent; border: 0; color: #FFFFFF; cursor: pointer; padding: .2rem .4rem; }
+/* Breadcrumb / crumb */
+.crumb-5602, .breadcrumb { padding: .5rem 0; font-size: .85rem; color: rgba(255,255,255,.85); }
+a { color: #1D4ED8; }
+.header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+h2 { color: #1E293B; font-size: 1.35rem; margin: 1.5rem 0 .8rem; font-weight: 700; }
+/* Footer */
+footer, .footer { background: #0F172A; color: #94A3B8; padding: 1.5rem; text-align: center; margin-top: 2rem; font-size: .85rem; }
+.brand-city { color: #94A3B8; font-size: .85rem; display: block; }
+.header-email { color: #FCD34D; text-decoration: none; }
+p { margin: 0 0 1rem; color: #374151; }
+/* Mid CTA */
+.mid-cta-5602 { padding: 2rem 0; }
+.sb-home a, .sidebar a, aside a { color: #FFFFFF; text-decoration: none; display: block; padding: .5rem .75rem; border-radius: 6px; transition: background .15s; }
+.brand, .brand-text, .brand-name { color: #FFFFFF; font-weight: 700; font-size: 1.25rem; line-height: 1.1; }
+#mapa-ciudad { width: 100%; height: 380px; border-radius: 8px; }</style><style>/*afx*//* Layout main: padding-top para clearance */
+main, .main-content, .content-area, .layout > *:not(aside):not(.sidebar) {
+padding-top: 0 !important;
+}
+body { padding-top: 0 !important; }
+/* Sidebar sticky pero NO encima del header */
+.sb-home, aside.sidebar, .sidebar, aside {
+position: sticky !important;
+top: 1rem !important;
+z-index: 2 !important;
+width: 260px !important;
+}
+/* MATAR position:fixed legacy de fase-i-fixes */
+nav.navbar, .header-top, .main-header, header.header, .header {
+position: static !important;
+top: auto !important;
+left: auto !important;
+width: auto !important;
+}
+/* Cards en grid: layout flex/grid sin colapsar */
+.cards-grid, [style*="display:grid"][style*="auto-fill"] {
+margin-top: 1rem !important;
+}</style><style>/*afx*/.cat-toggle, .cat-arrow {
+flex-shrink: 0 !important;
+order: 2 !important;
+}
+/* cat-item: BLOCK (no flex) — children flow normal y cat-sub-wrap toma full width */
+.cat-item, details {
+display: block !important;
+position: relative !important;
+}
+/* Sub-item links */
+.cat-sub-wrap a, .cat-sub a, .nav-cat-sub a {
+display: block !important;
+width: 100% !important;
+font-size: .82rem !important;
+line-height: 1.25 !important;
+padding: .35rem 1rem .35rem 1.8rem !important;
+white-space: normal !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+box-sizing: border-box !important;
+}
+/* cat-sub-wrap: full width abajo */
+.cat-sub-wrap, .cat-sub, .nav-cat-sub {
+flex-basis: 100% !important;
+width: 100% !important;
+max-width: 100% !important;
+order: 3 !important;
+position: static !important;
+background: rgba(0,0,0,.15) !important;
+padding: .4rem 0 .8rem !important;
+}
+.cat-name {
+flex: 1 1 auto !important;
+min-width: 0 !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+white-space: normal !important;
+order: 1 !important;
+}
+/* cat-row interno: SI flex para alinear name + toggle */
+.cat-row {
+display: flex !important;
+flex-wrap: nowrap !important;
+align-items: center !important;
+justify-content: space-between !important;
+width: 100% !important;
+}</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://valparaiso.geotecnia1.biz/sismica/", "url": "https://valparaiso.geotecnia1.biz/sismica/", "name": "Sísmica en Valparaíso – Chile", "inLanguage": "es", "description": "La sísmica aplicada a la ingeniería civil en Valparaíso abarca el conjunto de estudios, análisis y diseños orientados a comprender la respuesta del terreno", "isPartOf": {"@type": "WebSite", "@id": "https://valparaiso.geotecnia1.biz/#website-245b", "url": "https://valparaiso.geotecnia1.biz"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://valparaiso.geotecnia1.biz/"}, {"@type": "ListItem", "position": 2, "name": "Sísmica", "item": "https://valparaiso.geotecnia1.biz/sismica/"}]}, {"@type": "ItemList", "name": "Sísmica", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://valparaiso.geotecnia1.biz/inyecciones/", "name": "Análisis de licuefacción de suelos"}, {"@type": "ListItem", "position": 2, "url": "https://valparaiso.geotecnia1.biz/aislacion-sismica/", "name": "Diseño de aislación sísmica de base"}, {"@type": "ListItem", "position": 3, "url": "https://valparaiso.geotecnia1.biz/microzonificacion-sismica/", "name": "Microzonificación sísmica"}]}]}</script><style>/*afx*/.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><style>/*afx*/.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+body>*{max-width:100vw}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+.navbar .nav{gap:.55rem !important}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}/*sbhfix*/aside .sb-home{color:#FFF !important}</style><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript>  <link rel="preload" as="image" href="/img/tomografia-sismica-3.webp" fetchpriority="high">
 
-footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }</style>
-<style>
-@media(min-width:901px){
-  .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
-  .sidebar nav,.sidebar .nav{display:block!important}
-  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
-  .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-img{max-width:100%!important;height:auto!important}
-  main{flex:1!important;min-width:0!important}
-  aside{align-self:start!important}
-  body{background:#FAFAFA!important;color:#18181B!important}
-  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Sísmica en Valparaíso – Chile","url":"https://valparaiso.geotecnia1.biz/sismica/","inLanguage":"es","@id":"https://valparaiso.geotecnia1.biz/sismica/","description":"En Valparaíso, la evaluación sísmica aborda la interacción entre las condiciones geotécnicas locales —suelos de relleno, quebradas y formaciones rocosas co","@type":"WebPage","isPartOf":{"url":"https://valparaiso.geotecnia1.biz","@id":"https://valparaiso.geotecnia1.biz/#website-5602","@type":"WebSite"}},{"itemListElement":[{"item":"https://valparaiso.geotecnia1.biz/","name":"Home","position":1,"@type":"ListItem"},{"item":"https://valparaiso.geotecnia1.biz/sismica/","name":"Sísmica","position":2,"@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Sísmica","itemListElement":[{"url":"https://valparaiso.geotecnia1.biz/amplificacion-sismica/","name":"Análisis de amplificación sísmica","position":1,"@type":"ListItem"}],"@type":"ItemList"}]}</script></head>
-<body>
-
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;flex-direction:column;align-items:center;gap:6px;"><svg viewBox="0 0 64 64" width="44" height="44" style="flex-shrink:0"><polygon points="32,4 60,32 32,60 4,32" fill="#D97706"/></svg><span style="font-family:Georgia, "Times New Roman", serif;sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:15px;text-transform:uppercase;letter-spacing:0.1em;">Valparaiso Cl</span></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Valparaíso, Chile</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:contacto@geotecnia1.biz">contacto@geotecnia1.biz</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Inicio</a></li><li>›</li><li>Sísmica y Especiales</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Sísmica</li></ol></nav>
-        <h1>Sísmica en Valparaíso</h1>
-    </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Inicio</a><div class="cat-item" data-cat="exploracion"><div class="cat-row"><a href="../exploracion/" class="cat-name">Exploración</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Exploración"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../ensayo-cpt">Ensayo CPT (Cone Penetration Test)</a><a data-interlink="1" href="../ensayo-spt">Ensayo SPT (Standard Penetration Test)</a></div></div><div class="cat-item" data-cat="ensayos-in-situ"><div class="cat-row"><a href="../ensayos-in-situ/" class="cat-name">Ensayos in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ensayos in situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../infiltracion">Ensayo de infiltración (Porchet/Doble anillo)</a></div></div><div class="cat-item" data-cat="laboratorio"><div class="cat-row"><a href="../laboratorio/" class="cat-name">Laboratorio</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratorio"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../granulometria">Análisis granulométrico (tamices + hidrómetro)</a><a data-interlink="1" href="../compresion-simple">Compresión simple (UCS)</a><a data-interlink="1" href="../consolidacion">Consolidación edométrica (Oedometer)</a><a data-interlink="1" href="../ensayo-proctor">Ensayo Proctor (Normal o Modificado)</a><a data-interlink="1" href="../estudio-mecanica-suelos">Estudio de mecánica de suelos</a><a data-interlink="1" href="../limites-atterberg">Límites de Atterberg</a></div></div><div class="cat-item" data-cat="cimentaciones"><div class="cat-row"><a href="../cimentaciones/" class="cat-name">Cimentaciones</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Cimentaciones"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../asentamiento-diferencial">Análisis de asentamiento diferencial</a><a data-interlink="1" href="../suelos-colapsibles">Evaluación de suelos colapsibles</a></div></div><div class="cat-item" data-cat="taludes-y-muros"><div class="cat-row"><a href="../taludes-y-muros/" class="cat-name">Taludes y muros</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Taludes y muros"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../estabilidad-taludes">Análisis de estabilidad de taludes</a><a data-interlink="1" href="../falla-taludes">Análisis de falla de taludes</a><a data-interlink="1" href="../flujos-detritos">Análisis de flujos de detritos</a><a data-interlink="1" href="../factor-seguridad">Cálculo de factor de seguridad (FS)</a><a data-interlink="1" href="../estabilizacion-taludes">Diseño de estabilización de taludes</a><a data-interlink="1" href="../muros-contencion">Diseño de muros de contención</a><a data-interlink="1" href="../tablestacas">Diseño de tablestacas</a></div></div><div class="cat-item" data-cat="mejoramiento"><div class="cat-row"><a href="../mejoramiento/" class="cat-name">Mejoramiento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Mejoramiento"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../suelos-no-saturados">Análisis de suelos no saturados</a><a data-interlink="1" href="../columnas-grava">Diseño de columnas de grava (stone columns)</a><a data-interlink="1" href="../drenes-verticales">Diseño de drenes verticales (prefabricados)</a><a data-interlink="1" href="../jet-grouting">Diseño de jet grouting</a><a data-interlink="1" href="../vibrocompactacion">Diseño de vibrocompactación</a><a data-interlink="1" href="../estabilizacion-cal-cemento">Estabilización con cal y cemento</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a href="../sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Sísmica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../amplificacion-sismica">Análisis de amplificación sísmica</a></div></div><div class="cat-item" data-cat="geotecnia-vial"><div class="cat-row"><a href="../geotecnia-vial/" class="cat-name">Geotecnia vial</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geotecnia vial"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../pavimento-flexible">Diseño de pavimento flexible</a><a data-interlink="1" href="../subrasante-vial">Diseño de subrasante vial</a><a data-interlink="1" href="../terraplenes-viales">Diseño de terraplenes viales</a><a data-interlink="1" href="../evaluacion-pavimentos">Evaluación de pavimentos existentes</a></div></div><div class="cat-item" data-cat="geofisica"><div class="cat-row"><a href="../geofisica/" class="cat-name">Geofísica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geofísica"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../microtremores-hvsr">Microtremores HVSR (Nakamura)</a><a data-interlink="1" href="../resistividad-electrica-sev">Resistividad eléctrica / SEV (sondeo vertical)</a></div></div><div class="cat-item" data-cat="excavaciones-subterraneas"><div class="cat-row"><a href="../excavaciones-subterraneas/" class="cat-name">Excavaciones subterráneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Excavaciones subterráneas"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a data-interlink="1" href="../monitoreo-excavaciones">Monitoreo geotécnico de excavaciones</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>En Valparaíso, la evaluación sísmica aborda la interacción entre las condiciones geotécnicas locales —suelos de relleno, quebradas y formaciones rocosas costeras— y la amenaza sísmica regional. Nuestro trabajo se alinea con las disposiciones de la norma chilena NCh433 y el Decreto Supremo 61, integrando estudios de respuesta de sitio y <a href="amplificacion-sismica">análisis de amplificación sísmica</a> para caracterizar cómo los estratos modifican las ondas sísmicas en zonas urbanas y portuarias.</p>
-
-<p>Estos estudios son mandatorios en proyectos de edificación en altura, infraestructura crítica y conjuntos habitacionales emplazados sobre terrenos con contraste de rigidez. Complementamos la evaluación con <a href="amplificacion-sismica">análisis de amplificación sísmica</a> para refinar el espectro de diseño, asegurando que las estructuras respondan adecuadamente frente a sismos de subducción y corticales. La correcta caracterización dinámica del subsuelo permite reducir incertidumbres en el diseño estructural definitivo.</p><figure style="margin:1.5rem auto;max-width:720px;text-align:center"><img src="/img/amplificacion-sismica-3.webp" loading="lazy" decoding="async" width="800" height="600" alt="Imagen ilustrativa de Amplificacion sismica en Valparaíso" style="width:100%;height:auto;display:block;border-radius:8px;border:1px solid #E5E7EB"></figure></section>
-
-            <blockquote style="border-left:4px solid #D97706;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">En suelos de relleno de Valparaíso, la amplificación sísmica puede duplicar la aceleración del basamento rocoso, un factor que ningún diseño estructural debería ignorar.</blockquote>
-
-            
-
-            <section>
-                <h2>Alcance del trabajo en Valparaíso</h2>
-                <div>En Valparaíso, muchas veces vemos que los suelos de baja compactdad en rellenos de quebradas producen factores de amplificación mayores a 2.5 según la NCh433.Of2012. Nuestro método combina: <ul><li>Perfiles de velocidad de onda de corte (Vs30) mediante MASW o refracción sísmica.</li><li>Clasificación del sitio en las categorías A a F de la norma chilena.</li><li>Análisis unidimensional de propagación (código SHAKE2000) con acelerogramas chilenos.</li></ul> Para estratos más profundos aplicamos <a href="../ensayo-cpt">ensayos CPT</a> que miden la resistencia de punta y fricción continua, insumo directo para curvas de degradación G/Gmax. Cada informe entrega espectros de diseño específicos del sitio, no tablas genéricas del Anexo de la NCh433.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Análisis de amplificación sísmica en Valparaíso</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #D97706;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#D97706;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parámetro</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Valor típico</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Rango de frecuencia analizado</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">0.5 – 10 Hz</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Factor de amplificación promedio</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">1.8 – 2.5 (suelos tipo D/E)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Velocidad Vs30 mínima registrada</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">180 m/s (rellenos sueltos)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Acelerogramas de referencia</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Registros chilenos (Valparaíso 1985, 2010)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Normativa aplicable</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">NCh433.Of2012, NCh2369.Of2003</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Profundidad de investigación típica</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 – 50 m (perfil Vs30)</td></tr></tbody></table></div>
-
-            
-
-            <section>
-                <h2>Condiciones geotécnicas locales en Valparaíso</h2>
-                <p>Un error frecuente en Valparaíso es tomar el tipo de suelo del plano regulador como único insumo para el espectro de diseño. Esa clasificación es macro; no capta la heterogeneidad de los rellenos, ni la presencia de lentes de arena suelta que amplifican selectivamente ciertas frecuencias. Sin un análisis de amplificación sísmica in situ, una obra en el plan o en quebrada puede quedar subdimensionada para el periodo de retorno de 475 años. El resultado: fisuras en muros de contención, daño en juntas de dilatación y, en el peor caso, colapso por licuefacción en suelos saturados bajo carga cíclica.</p>
-            </section>
-
-            
-    <section class="block mid-cta-5602" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.5rem 1.8rem;border-radius:6px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">¿Necesita una evaluación geotécnica?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Respuesta en menos de 24h.</p>
-        <a href="https://wa.me/56977092993" style="display:inline-block;background:#25D366;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(37,211,102,.25)">WhatsApp directo: +56 9 7709 2993</a><p style="margin:.6rem 0 0;color:#64748B;font-size:.85rem;font-style:italic;text-align:center">La forma más rápida de cotizar</p><p style="margin:1rem 0 0;color:#1E293B;font-size:.92rem;text-align:center">Email: <a href="mailto:contacto@geotecnia1.biz" style="color:#16A34A;text-decoration:underline;font-weight:600">contacto@geotecnia1.biz</a></p>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Normativa aplicable:</strong> NCh433.Of2012 — Diseño sísmico de edificios, NCh2369.Of2003 — Diseño sísmico de estructuras industriales, NEHRP 2020 — Site classification based on Vs30, NCh 165/D4428M — Crosshole seismic testing
-            </div>
-
-            <section>
-                <h2>Nuestros servicios de Análisis de amplificación sísmica</h2>
-                <p>Ofrecemos un paquete completo de ensayos de campo y laboratorio para el análisis de amplificación sísmica en Valparaíso, todos ejecutados bajo protocolos acreditados ISO 17025.</p>
-                <style>.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#D97706;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover{border-color:#D97706;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link:hover h3{color:#D97706}</style><div class="servicios-grid"><div class="servicio"><h3>Perfil de ondas de corte (MASW)</h3><p>Adquisición de ondas superficiales con arreglo de 24 geófonos; inversión para obtener perfil Vs hasta 50 m de profundidad. Clasificación del sitio según NCh433 y NEHRP.</p></div><div class="servicio"><h3>Microtremores HVSR</h3><p>Medición de vibración ambiental con sismómetro portátil. Identifica frecuencias de resonancia del suelo y posibles efectos de sitio en cerros y rellenos.</p></div><div class="servicio"><h3>Análisis unidimensional SHAKE2000</h3><p>Modelación de propagación de ondas con acelerogramas chilenos (Valparaíso 1985, Maule 2010). Entrega espectros de respuesta de diseño y factores de amplificación por capa.</p></div><div class="servicio"><h3>Ensayo SPT con medición de energía</h3><p>Penetración estándar con martillo instrumentado para registrar eficiencia real. Correlación directa con Vs mediante relaciones empíricas validadas en la zona central de Chile.</p></div></div>
-            </section>
-
-            
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Servicios disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../amplificacion-sismica/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Análisis de amplificación sísmica</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
-    </div>
-</div>
-
-<link rel="stylesheet" href="/css/leaflet-5602.css"/>
-<script src="/js/leaflet-5602.js"></script>
-<script>
-(function(){function init(){if(typeof L==="undefined"){setTimeout(init,200);return;}var el=document.getElementById("map-leaflet");if(!el)return;var map=L.map(el).setView([-33.0458456,-71.6196749],12);L.tileLayer("https://{s}.tile-5602.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap",maxZoom:18}).addTo(map);L.marker([-33.0458456,-71.6196749]).addTo(map).bindPopup("Valparaíso").openPopup();}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",init);}else{init();}})();
-</script><footer style="background:#171717;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Valparaíso, Chile · <a href="mailto:contacto@geotecnia1.biz" style="color:#FFF;text-decoration:underline">contacto@geotecnia1.biz</a><div data-updated="2026-03-10" style="font-size:.78rem;color:rgba(255,255,255,.6);margin-top:.8rem">Última actualización: 2026-04-07</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referencias técnicas:</strong> <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocódigo 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotécnica</a> · <a href="https://www.aenor.com/" rel="nofollow noopener" target="_blank">AENOR (España)</a></div></footer>
-
-<script>(function(){document.querySelectorAll(".cat-toggle").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();var s=b.parentElement.parentElement.querySelector(".cat-sub-wrap");var ex=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!ex);if(s){s.hidden=ex;}});});})();</script></body>
-</html>
+<link rel="alternate" hreflang="es-CL" href="https://valparaiso.geotecnia1.biz/sismica/">
+</head><body><header class="header"><div class="header-top"><div class="brand"><div class="brand-logo">V</div><div class="brand-text"><div class="brand-name">GEOTECNIA 1</div><div class="brand-city">Valparaíso, Chile</div></div></div><a href="mailto:contacto@geotecnia1.biz" class="header-email">contacto@geotecnia1.biz</a></div><div class="crumb-5602"><a href="/">Inicio</a> › <span>Sísmica</span></div><h1>Sísmica en Valparaíso</h1></header><div class="layout"><aside><a href="/" class="sb-home">Inicio</a><div class="cat-item" data-cat="exploracion"><div class="cat-row"><a href="/exploracion/" class="cat-name">Exploración</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Exploración"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/">Ensayo CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="laboratorio-in-situ"><div class="cat-row"><a data-interlink="1" href="/laboratorio-lab/" class="cat-name">Ensayos in situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Ensayos in situ"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/densidad-cono-arena/">Densidad de campo (cono de arena)</a></div></div><div class="cat-item" data-cat="laboratorio-lab"><div class="cat-row"><a data-interlink="1" href="/laboratorio-lab/" class="cat-name">Laboratorio</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Laboratorio"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/granulometria/">Análisis granulométrico (tamices + hidrómetro)</a><a data-interlink="1" href="/limites-atterberg/">Límites de Atterberg</a></div></div><div class="cat-item" data-cat="cimentaciones"><div class="cat-row"><a data-interlink="1" href="/cimentaciones/" class="cat-name">Cimentaciones</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Cimentaciones"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/pilotes/">Diseño de fundaciones en pilotes</a></div></div><div class="cat-item" data-cat="taludes"><div class="cat-row"><a data-interlink="1" href="/taludes/" class="cat-name">Taludes</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Taludes"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/densidad-cono-arena/">Análisis de estabilidad de taludes</a><a data-interlink="1" href="/">Diseño de anclajes activos/pasivos</a><a data-interlink="1" href="/muros-contencion/">Diseño de muros de contención</a></div></div><div class="cat-item" data-cat="mejoramiento"><div class="cat-row"><a data-interlink="1" href="/mejoramiento/" class="cat-name">Mejoramiento</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Mejoramiento"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/columnas-grava/">Diseño de columnas de grava (stone columns)</a><a data-interlink="1" href="/vibrocompactacion/">Diseño de vibrocompactación</a></div></div><div class="cat-item" data-cat="excavaciones-subterraneo"><div class="cat-row"><a data-interlink="1" href="/aislacion-sismica/" class="cat-name">Excavaciones subterráneas</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Excavaciones subterráneas"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/tuneles-suelo-blando/">Análisis geotécnico para túneles en suelo blando</a><a data-interlink="1" href="/aislacion-sismica/">Diseño geotécnico de excavaciones profundas</a><a data-interlink="1" href="/monitoreo-excavaciones/">Monitoreo geotécnico de excavaciones</a></div></div><div class="cat-item" data-cat="geotecnia-vial"><div class="cat-row"><a data-interlink="1" href="/geotecnia-vial/" class="cat-name">Geotecnia vial</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Geotecnia vial"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/cimentaciones/">Diseño de pavimento flexible</a><a data-interlink="1" href="/cimentaciones/">Diseño de pavimento rígido</a><a data-interlink="1" href="/cbr-vial/">Estudio CBR para diseño vial</a><a data-interlink="1" href="/geotecnia-vial/">Geotecnia vial (diseño pavimentos/subrasante)</a></div></div><div class="cat-item" data-cat="sismica"><div class="cat-row"><a data-interlink="1" href="/sismica/" class="cat-name">Sísmica</a><button class="cat-toggle" aria-expanded="false" aria-label="Expand Sísmica"><span class="cat-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3.5l3 3 3-3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/inyecciones/">Análisis de licuefacción de suelos</a><a data-interlink="1" href="/aislacion-sismica/">Diseño de aislación sísmica de base</a><a data-interlink="1" href="/microzonificacion-sismica/">Microzonificación sísmica</a></div></div></aside><main><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">La sísmica aplicada a la ingeniería civil en Valparaíso abarca el conjunto de estudios, análisis y diseños orientados a comprender la respuesta del terreno y las estructuras frente a la alta amenaza sísmica que caracteriza a la región. Esta categoría no se limita a un único servicio, sino que integra desde la caracterización dinámica del subsuelo hasta soluciones avanzadas de protección estructural, resultando indispensable para garantizar la seguridad de las personas y la continuidad operativa de las edificaciones e infraestructura crítica en una de las zonas de mayor actividad tectónica del planeta.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">La ciudad se emplaza sobre un contexto geológico particularmente complejo, conformado por terrazas marinas, depósitos aluviales, rellenos artificiales y laderas de fuerte pendiente con suelos residuales y coluviales. Esta heterogeneidad, sumada a la presencia de napas freáticas superficiales en sectores del plan, genera condiciones propicias para fenómenos como la amplificación sísmica local y la <a href='/analisis-de-licuefaccion-de-suelos/'>licuefacción de suelos</a>, un riesgo latente que debe ser evaluado con rigor en cada proyecto. El puerto, motor económico de la región, se asienta en gran parte sobre terrenos ganados al mar, incrementando la vulnerabilidad ante sismos de gran magnitud.</p></div></section><section class="block" style="padding:1.5rem"><div style="max-width:1100px;margin:0 auto"><img src="/img/tomografia-sismica-3.webp" alt="Sísmica en Valparaíso" loading="eager" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0" fetchpriority="high"></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">La normativa chilena establece exigencias claras a través de la NCh433 Of.96 modificada 2012 para el diseño sísmico de edificios, complementada por la NCh2745 sobre análisis y diseño de edificios con aislación sísmica y la NCh2369 para estructuras industriales. Además, el Decreto Supremo N°61 del MINVU regula el diseño sísmico de construcciones y la Ordenanza General de Urbanismo y Construcciones incorpora la obligatoriedad de estudios de mecánica de suelos que consideren el comportamiento dinámico del terreno. Estos marcos regulatorios convierten los estudios de sísmica en un requisito ineludible desde la etapa de factibilidad.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Los servicios de esta categoría son requeridos en una amplia gama de proyectos, desde viviendas en altura en el borde costero y centros comerciales hasta hospitales, establecimientos educacionales e infraestructura portuaria. La <a href='/microzonificacion-sismica/'>microzonificación sísmica</a> resulta fundamental para la planificación urbana y la definición de espectros de diseño representativos, mientras que el <a href='/diseno-de-aislacion-sismica-de-base/'>diseño de aislación sísmica de base</a> se posiciona como una solución de alto desempeño para edificaciones esenciales que deben permanecer operativas después de un terremoto severo.</p></div></section><section class="block mid-cta-5602" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#A1620715,#A1620708);border-left:4px solid #A16207;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">¿Necesita una evaluación geotécnica?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Respuesta en menos de 24h.</p><div style="margin:.4rem 0 1rem;text-align:center">WhatsApp directo: +56 9 7709 2993</div><p style="margin:.4rem 0 0;color:#64748B;font-size:.85rem;font-style:italic;text-align:center">La manera más eficiente de acceder a una evaluación técnica detallada de su proyecto.</p><p style="margin:1rem 0 0;color:#1E293B;font-size:.92rem;text-align:center">Email: <a href="mailto:contacto@geotecnia1.biz" style="color:#A16207;text-decoration:underline;font-weight:600">contacto@geotecnia1.biz</a></p></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Servicios disponibles</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../inyecciones/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Análisis de licuefacción de suelos</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../aislacion-sismica/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Diseño de aislación sísmica de base</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../microzonificacion-sismica/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Microzonificación sísmica</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:900px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Preguntas comunes</h2><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">¿Por qué es crítica la categoría de sísmica en Valparaíso en comparación con otras regiones de Chile?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Valparaíso combina una amenaza sísmica elevada por la convergencia de las placas de Nazca y Sudamericana con condiciones geotécnicas adversas como suelos de relleno, terrazas marinas y napas freáticas someras. Esta interacción amplifica las ondas sísmicas y favorece fenómenos como la licuefacción, exigiendo estudios de respuesta local y diseños estructurales más conservadores que en zonas con suelo competente.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">¿Qué normativa chilena regula los estudios de sísmica en proyectos de construcción?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">La NCh433 Of.96 modificada 2012 establece los requisitos de diseño sísmico para edificios, la NCh2369 aplica a estructuras industriales y la NCh2745 regula el diseño con aislación sísmica. El Decreto Supremo N°61 del MINVU y la Ordenanza General de Urbanismo y Construcciones exigen estudios de mecánica de suelos que incorporen el comportamiento dinámico del terreno como parte obligatoria del expediente técnico.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">¿En qué etapa de un proyecto se deben realizar los estudios de sísmica?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Los estudios de sísmica deben iniciarse en la etapa de factibilidad o anteproyecto para caracterizar el subsuelo mediante ensayos geofísicos y determinar el espectro de diseño específico del sitio. Esto permite tomar decisiones tempranas sobre la tipología estructural, la necesidad de mejoramiento de terreno o la incorporación de sistemas de protección sísmica, evitando costosos rediseños durante la ingeniería de detalle.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">¿Qué diferencia hay entre un estudio de microzonificación sísmica y un análisis de respuesta de sitio convencional?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">La microzonificación sísmica abarca áreas urbanas extensas y clasifica los suelos en zonas con comportamiento sísmico similar, generando mapas de amenaza y espectros de diseño para la planificación territorial. El análisis de respuesta de sitio, en cambio, se enfoca en un predio específico y modela la propagación de ondas en profundidad para obtener espectros de aceleración y parámetros dinámicos particulares de ese emplazamiento.</p></details></div></section><section class="block map-block" style="padding:3rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:.8rem;font-weight:700">Ubicación y área de servicio</h2><p style="margin-bottom:1rem;color:#555">Atendemos proyectos en Valparaíso y alrededores.</p><div class="map-wrap" style="position:relative;max-width:520px;margin:0 auto;aspect-ratio:4/3;border-radius:8px;overflow:hidden;border:1px solid #E5E7EB"><div id="map_b96bcc" style="position:absolute;top:0;left:0;width:100%;height:100%"></div></div><link rel="stylesheet" href="/css/leaflet-0307.css"><script src="/js/leaflet-0307.js"></script><script>
+(function(){
+var m=L.map("map_b96bcc",{zoomControl:true,attributionControl:true}).setView([-33.0458,-71.6197],11);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
+attribution:"&copy; OpenStreetMap colaboradores &copy; CARTO",maxZoom:19,subdomains:"abcd"
+}).addTo(m);L.marker([-33.0458,-71.6197],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(m);
+L.circle([-33.0458,-71.6197],{radius:5000,color:'#171717',weight:2,fillColor:'#404040',fillOpacity:0.18}).addTo(m).bindPopup("Valparaíso");
+})();
+</script><div style="margin-top:.5rem;font-size:.78rem;color:#888;text-align:center">Ver mapa ampliado</div></div></section></main></div><footer style="background:#14532D;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Valparaíso, Chile · <a href="mailto:contacto@geotecnia1.biz" style="color:rgba(255,255,255,.7)">contacto@geotecnia1.biz</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referencias técnicas:</strong>NCh INN · ISO Geotécnica · Eurocódigo 7</div><div class="updated-info" data-updated="2026-03-26" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Última actualización: 2026-03-26</div></footer><script id="sidebar-toggle-v3">
+(function(){
+if(window.__sidebarToggleV3){return}window.__sidebarToggleV3=true;
+// Event delegation en document — funciona aunque DOMContentLoaded ya haya pasado.
+// Ver REGLA 34 #7 (JS race conditions) y avance53.
+document.addEventListener('click',function(e){
+var btn=e.target.closest&&e.target.closest('.cat-toggle');
+if(!btn)return;
+e.preventDefault();
+var item=btn.closest('.cat-item');
+if(!item)return;
+var sub=item.querySelector('.cat-sub');
+var open=btn.getAttribute('aria-expanded')==='true';
+btn.setAttribute('aria-expanded',open?'false':'true');
+if(sub){if(open){sub.setAttribute('hidden','')}else{sub.removeAttribute('hidden')}}
+});
+})();
+</script></body></html>

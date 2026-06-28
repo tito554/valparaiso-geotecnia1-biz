@@ -1,9 +1,9 @@
 {
-  "name": "Valparaiso",
-  "short_name": "Valparaiso",
+  "name": "Geotecnia1",
+  "short_name": "Geotecnia1",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#0A2540",
+  "theme_color": "#1E3A8A",
   "background_color": "#FFFFFF",
   "icons": [
     {
@@ -11,10 +11,5 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ],
-  "lang": "es",
-  "orientation": "portrait-secondary",
-  "scope": "/",
-  "description": "Servicios geotécnicos profesionales en Valparaíso, Chile. Estudios de suelo, ensayos y consultoría técnica.",
-  "id": "/valparaiso-5174"
+  ]
 }
